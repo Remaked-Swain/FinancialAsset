@@ -11,6 +11,7 @@
 		049A057D29A784C0008E2A9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A057C29A784C0008E2A9E /* ContentView.swift */; };
 		049A057F29A784CB008E2A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A057E29A784CB008E2A9E /* Assets.xcassets */; };
 		049A058229A784CB008E2A9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A058129A784CB008E2A9E /* Preview Assets.xcassets */; };
+		049A058929A78839008E2A9E /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A058829A78839008E2A9E /* NavigationBarWithButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		049A057C29A784C0008E2A9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		049A057E29A784CB008E2A9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049A058129A784CB008E2A9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049A058829A78839008E2A9E /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				049A057A29A784C0008E2A9E /* FinancialAssetApp.swift */,
 				049A057C29A784C0008E2A9E /* ContentView.swift */,
+				049A058829A78839008E2A9E /* NavigationBarWithButton.swift */,
 				049A057E29A784CB008E2A9E /* Assets.xcassets */,
 				049A058029A784CB008E2A9E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049A058929A78839008E2A9E /* NavigationBarWithButton.swift in Sources */,
 				049A057D29A784C0008E2A9E /* ContentView.swift in Sources */,
 				049A057B29A784C0008E2A9E /* FinancialAssetApp.swift in Sources */,
 			);
