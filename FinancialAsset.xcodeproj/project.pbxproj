@@ -21,6 +21,10 @@
 		049A059929A9E4D2008E2A9E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A059829A9E4D2008E2A9E /* PageViewController.swift */; };
 		049A059B29A9E9CA008E2A9E /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A059A29A9E9CA008E2A9E /* PageControl.swift */; };
 		049A059D29A9EB2A008E2A9E /* AssetBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A059C29A9EB2A008E2A9E /* AssetBannerView.swift */; };
+		04C027DE29ABAF3000F1CB24 /* assets.json in Resources */ = {isa = PBXBuildFile; fileRef = 04C027DD29ABAF2F00F1CB24 /* assets.json */; };
+		04C027E029ABAFB800F1CB24 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027DF29ABAFB800F1CB24 /* Asset.swift */; };
+		04C027E229ABB0B500F1CB24 /* AssetSummaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027E129ABB0B500F1CB24 /* AssetSummaryData.swift */; };
+		04C027E829ABB44900F1CB24 /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027E729ABB44900F1CB24 /* AssetSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		049A059829A9E4D2008E2A9E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		049A059A29A9E9CA008E2A9E /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		049A059C29A9EB2A008E2A9E /* AssetBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBannerView.swift; sourceTree = "<group>"; };
+		04C027DD29ABAF2F00F1CB24 /* assets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assets.json; sourceTree = "<group>"; };
+		04C027DF29ABAFB800F1CB24 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		04C027E129ABB0B500F1CB24 /* AssetSummaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryData.swift; sourceTree = "<group>"; };
+		04C027E729ABB44900F1CB24 /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				049A057929A784C0008E2A9E /* FinancialAsset */,
+				04C027DD29ABAF2F00F1CB24 /* assets.json */,
 				049A057829A784C0008E2A9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +86,7 @@
 				049A059429A9E05C008E2A9E /* Entities */,
 				049A059729A9E0D7008E2A9E /* AssetMenu */,
 				049A059E29A9EB33008E2A9E /* AssetBannerView */,
+				04C027E929ABB54F00F1CB24 /* AssetSummaryView */,
 				049A057E29A784CB008E2A9E /* Assets.xcassets */,
 				049A058029A784CB008E2A9E /* Preview Content */,
 			);
@@ -94,6 +104,7 @@
 		049A059429A9E05C008E2A9E /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				04C027DF29ABAFB800F1CB24 /* Asset.swift */,
 				049A058A29A8D971008E2A9E /* AssetMenu.swift */,
 				049A059229A9E050008E2A9E /* AssetBanner.swift */,
 			);
@@ -119,6 +130,15 @@
 				049A059C29A9EB2A008E2A9E /* AssetBannerView.swift */,
 			);
 			path = AssetBannerView;
+			sourceTree = "<group>";
+		};
+		04C027E929ABB54F00F1CB24 /* AssetSummaryView */ = {
+			isa = PBXGroup;
+			children = (
+				04C027E129ABB0B500F1CB24 /* AssetSummaryData.swift */,
+				04C027E729ABB44900F1CB24 /* AssetSummaryView.swift */,
+			);
+			path = AssetSummaryView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C027DE29ABAF3000F1CB24 /* assets.json in Resources */,
 				049A058229A784CB008E2A9E /* Preview Assets.xcassets in Resources */,
 				049A057F29A784CB008E2A9E /* Assets.xcassets in Resources */,
 			);
@@ -192,12 +213,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				049A058F29A8DD0C008E2A9E /* AssetMenuGridView.swift in Sources */,
+				04C027E029ABAFB800F1CB24 /* Asset.swift in Sources */,
 				049A059929A9E4D2008E2A9E /* PageViewController.swift in Sources */,
+				04C027E229ABB0B500F1CB24 /* AssetSummaryData.swift in Sources */,
 				049A058929A78839008E2A9E /* NavigationBarWithButton.swift in Sources */,
 				049A059329A9E050008E2A9E /* AssetBanner.swift in Sources */,
 				049A059129A8DFA5008E2A9E /* AssetView.swift in Sources */,
 				049A057D29A784C0008E2A9E /* ContentView.swift in Sources */,
 				049A057B29A784C0008E2A9E /* FinancialAssetApp.swift in Sources */,
+				04C027E829ABB44900F1CB24 /* AssetSummaryView.swift in Sources */,
 				049A058B29A8D972008E2A9E /* AssetMenu.swift in Sources */,
 				049A059B29A9E9CA008E2A9E /* PageControl.swift in Sources */,
 				049A059D29A9EB2A008E2A9E /* AssetBannerView.swift in Sources */,
