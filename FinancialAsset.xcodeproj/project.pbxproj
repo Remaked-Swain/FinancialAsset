@@ -25,6 +25,8 @@
 		04C027E029ABAFB800F1CB24 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027DF29ABAFB800F1CB24 /* Asset.swift */; };
 		04C027E229ABB0B500F1CB24 /* AssetSummaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027E129ABB0B500F1CB24 /* AssetSummaryData.swift */; };
 		04C027E829ABB44900F1CB24 /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027E729ABB44900F1CB24 /* AssetSummaryView.swift */; };
+		04C027EB29ACF8C300F1CB24 /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027EA29ACF8C300F1CB24 /* TabMenuView.swift */; };
+		04C027ED29ACFBC900F1CB24 /* AssetCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C027EC29ACFBC900F1CB24 /* AssetCardSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		04C027DF29ABAFB800F1CB24 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		04C027E129ABB0B500F1CB24 /* AssetSummaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryData.swift; sourceTree = "<group>"; };
 		04C027E729ABB44900F1CB24 /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
+		04C027EA29ACF8C300F1CB24 /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
+		04C027EC29ACFBC900F1CB24 /* AssetCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 			children = (
 				04C027E129ABB0B500F1CB24 /* AssetSummaryData.swift */,
 				04C027E729ABB44900F1CB24 /* AssetSummaryView.swift */,
+				04C027EA29ACF8C300F1CB24 /* TabMenuView.swift */,
+				04C027EC29ACFBC900F1CB24 /* AssetCardSectionView.swift */,
 			);
 			path = AssetSummaryView;
 			sourceTree = "<group>";
@@ -214,7 +220,9 @@
 			files = (
 				049A058F29A8DD0C008E2A9E /* AssetMenuGridView.swift in Sources */,
 				04C027E029ABAFB800F1CB24 /* Asset.swift in Sources */,
+				04C027ED29ACFBC900F1CB24 /* AssetCardSectionView.swift in Sources */,
 				049A059929A9E4D2008E2A9E /* PageViewController.swift in Sources */,
+				04C027EB29ACF8C300F1CB24 /* TabMenuView.swift in Sources */,
 				04C027E229ABB0B500F1CB24 /* AssetSummaryData.swift in Sources */,
 				049A058929A78839008E2A9E /* NavigationBarWithButton.swift in Sources */,
 				049A059329A9E050008E2A9E /* AssetBanner.swift in Sources */,
